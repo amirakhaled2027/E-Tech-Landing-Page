@@ -1,0 +1,6 @@
+.companies-section {
+    height: 120px;
+    background: linear-gradient(180deg, rgba(182,113,255,1) 0%, rgba(255,141,166,1) 100%);  
+    display: flex;
+    justify-content: center;
+}

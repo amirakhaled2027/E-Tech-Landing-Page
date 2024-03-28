@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.hero-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 100px 40px 100px;
+
+}
+
+.hero-img {
+   width: 600px; 
+}
+.hero-section .right {
+   width: 600px; 
+   font-family: "Poppins";
+}
+
+.hero-section .right h1 {
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 700;
+}
+.hero-section .right p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.hero-section .buttons {
+    font-size: 17px;
+    font-family: "Poppins";
+    font-weight: 500;
+    border-radius: 7px;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.etech {
+    display: flex;
+    justify-content: space-between;
+}
+.hero-section .enroll {
+    color: white;
+    border: none;
+    padding: 7px 25px 7px 25px;
+    background: linear-gradient(180deg, rgba(182,113,255,1) 0%, rgba(255,141,166,1) 100%);  
+}
+
+.hero-section .etech-text {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    font-weight: 600;
+}
+
+

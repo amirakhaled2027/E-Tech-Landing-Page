@@ -1,0 +1,95 @@
+.testimonials-section {
+    font-family: "Poppins";
+    background: linear-gradient(180deg, rgba(182,113,255,1) 0%, rgba(255,141,166,1) 100%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 70px 120px 70px 120px;
+
+}
+
+.testimonials-section .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+    height: 142px;
+    margin-bottom: 150px;
+
+
+}
+
+.testimonials-section .text h2 {
+    font-size: 35px;
+    line-height: 40px;
+    color: white;
+    font-weight: 500;
+}
+.testimonials-section .text p {
+    font-size: 20px;
+    color: white;
+}
+
+.testimonials-section .reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    margin-bottom: 100px;
+}
+.testimonials-section .reviews h6,
+.testimonials-section .reviews p,
+.testimonials-section .reviews .stars {
+    margin: 0;
+}
+.testimonials-section .reviews h6 {
+    font-size: 23px;
+    color: #B671FF;
+
+}
+
+.testimonials-section .alexa,
+.testimonials-section .emely,
+.testimonials-section .james {
+    background-color: white;
+    padding: 15px;
+    padding-bottom: 0;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.testimonials-section .alexa-top,
+.testimonials-section .emely-top,
+.testimonials-section .james-top {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.testimonials-section .alexa-info,
+.testimonials-section .emely-info,
+.testimonials-section .james-info {
+    margin-left: 15px;
+}
+
+.testimonials-section .alexa-info p,
+.testimonials-section .emely-info p,
+.testimonials-section .james-info p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.testimonials-section .alexa-bottom,
+.testimonials-section .emely-bottom,
+.testimonials-section .james-bottom {
+    margin-top: 15px;
+
+}
+
+.testimonials-section .alexa-bottom p,
+.testimonials-section .emely-bottom p,
+.testimonials-section .james-bottom p{
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}

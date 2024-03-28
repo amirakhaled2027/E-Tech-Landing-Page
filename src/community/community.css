@@ -1,0 +1,71 @@
+.community-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 100px;
+    font-family: "Poppins";
+    margin: 100px;
+    
+}
+
+.community-section .left {
+    width: 640px;
+} 
+.community-section .left-top h2 {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.community-section .left-top p {
+    font-size: 20px;
+}
+.community-section .left-top h2 span{
+    color: #B671FF;
+}
+
+.community-section .left-bottom h2 {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.community-section .left-bottom .pros {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+}
+
+.community-section .left-bottom .pros img {
+    width: 25px;
+    height: 25px;
+    
+}
+.community-section .left-bottom .pros .global,
+.community-section .left-bottom .pros .flexible,
+.community-section .left-bottom .pros .innovative,
+.community-section .left-bottom .pros .recognition,
+.community-section .left-bottom .pros .creative,
+.community-section .left-bottom .pros .monetize,
+.community-section .left-bottom .pros .professional,
+.community-section .left-bottom .pros .networking {
+    display: flex;
+
+   
+}
+.community-section .left-bottom .pros p {
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.community-section .left-bottom button{
+    color: white;
+    border: none;
+    padding: 7px 25px 7px 25px;
+    background: linear-gradient(180deg, rgba(182,113,255,1) 0%, rgba(255,141,166,1) 100%);  
+    margin-top: 30px;
+}
+
+.community-section .right img{
+    margin-top: 35px;
+    width: 480px;
+    height: 480px;
+}
